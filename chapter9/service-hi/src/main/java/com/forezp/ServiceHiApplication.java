@@ -43,6 +43,14 @@ public class ServiceHiApplication {
 
 	}
 
+	@RequestMapping("/hello")
+	public String hello(){
+		LOG.log(Level.INFO, "calling trace service-hi ");
+		return restTemplate.getForObject("http://localhost:8989/hi", String.class);
+//		return "i'm service-hi";
+
+	}
+
 	@Bean
 	public AlwaysSampler defaultSampler(){
 		return new AlwaysSampler();

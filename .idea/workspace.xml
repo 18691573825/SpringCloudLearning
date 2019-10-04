@@ -2,17 +2,376 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e007cf8-b7a8-4272-9d4b-2d0a58048b65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10-5-jdbc/chapter10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter14/chapter14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/service-hi/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/service-hi/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/service-feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/service-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter5/service-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/service-zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/chapter6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/config-client/src/main/java/com/forezp/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/config-client/src/main/java/com/forezp/ConfigClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter8/config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter8/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter9/chapter9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter9/service-hi/src/main/java/com/forezp/ServiceHiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/service-hi/src/main/java/com/forezp/ServiceHiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter9/service-miya/src/main/java/com/forezp/ServiceMiyaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/service-miya/src/main/java/com/forezp/ServiceMiyaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-chapter6/sc-f-chapter6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-chapter9/sc-f-chapter9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_buffer_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_codec_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_common_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_handler_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_resolver_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_transport_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_29_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_12_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_aop_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_beans_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_context_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_core_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_expression_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_web_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/sc-f-gateway-first-sight.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-first-sight/target/classes/gateway/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-first-sight/target/classes/gateway/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-predicate/sc-f-gateway-predicate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-predicate/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-predicate/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sc-f-gateway-predicate/target/classes/gateway/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/sc-f-gateway-predicate/target/classes/gateway/Application.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/chapter10-5-jdbc/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter11-2/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-config/nacos-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-mysql/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter8/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-mysql/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter5/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter12/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter6/target/" />
+    <ignored path="$PROJECT_DIR$/chapter13/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-mysql/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter12/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter9/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-cloud/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter5/service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/chapter8/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter5/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/chapter14/consul-miya/target/" />
+    <ignored path="$PROJECT_DIR$/chapter2/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter5/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-mysql/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter5/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter7/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter8/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter14/target/" />
+    <ignored path="$PROJECT_DIR$/chapter3/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-config/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter9/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter9/service-miya/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter10/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter13/service-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/chapter2/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-discovery-sentinel/nacos-provider/target/" />
+    <ignored path="$PROJECT_DIR$/chapter11-2/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter12/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-discovery/nacos-provider/target/" />
+    <ignored path="$PROJECT_DIR$/chapter8/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter13/service-lucy/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter13/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-first-sight/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter3/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-elasticsearch/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter5/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter3/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter3/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin-cloud/admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter1/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-discovery-sentinel/nacos-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter12/target/" />
+    <ignored path="$PROJECT_DIR$/chapter1/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin-cloud/admin-client/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter8/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter3/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/chapter4/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter4/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter4/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter6/target/" />
+    <ignored path="$PROJECT_DIR$/chapter4/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/chapter5/service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter5/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter4/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-cloud/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter5/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter7/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter13/service-lucy/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-discovery-sentinel/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter7/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter13/target/" />
+    <ignored path="$PROJECT_DIR$/chapter12/target/" />
+    <ignored path="$PROJECT_DIR$/chapter2/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter4/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter3/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-limiter/target/" />
+    <ignored path="$PROJECT_DIR$/chapter5/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter1/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter9/target/" />
+    <ignored path="$PROJECT_DIR$/chapter11/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter12/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-mysql/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter5/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/chapter4/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter4/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter10/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin/admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-elasticsearch/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-cloud/service-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/chapter6/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter6/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter8/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter1/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter2/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter8/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter2/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-predicate/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-mysql/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter9/server-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/chapter3/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/chapter11/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-elasticsearch/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter13/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter4/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10-5-jdbc/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter3/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-elasticsearch/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter1/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/chapter13/service-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter7/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-discovery/nacos-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter6/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-mysql/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter9/service-miya/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth/zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter13/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/chapter3/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-discovery/target/" />
+    <ignored path="$PROJECT_DIR$/chapter1/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin/admin-client/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter8/target/" />
+    <ignored path="$PROJECT_DIR$/chapter5/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter11/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-alibaba/nacos-config/nacos-provider/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter2/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter10-5-jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-mysql/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth/gateway-service/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter13/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter2/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter9/target/" />
+    <ignored path="$PROJECT_DIR$/chapter4/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter10/target/" />
+    <ignored path="$PROJECT_DIR$/chapter11-2/target/" />
+    <ignored path="$PROJECT_DIR$/chapter6/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter-sleuth-stream/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-gateway-filter/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-boot-admin-cloud/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter3/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/sc-f-chapter2/service-hi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sc-f-gateway-predicate/src/main/java/gateway/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sc-f-gateway-predicate/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/chapter2/service-hi/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/chapter3/service-hi/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/chapter4/service-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chapter5/service-zuul/src/main/java/com/forezp/MyFilter.java" />
+        <option value="$PROJECT_DIR$/chapter6/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter6/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6/config-client/src/main/java/com/forezp/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/chapter6/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/chapter7/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/chapter7/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter7/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chapter8/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/chapter8/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter9/service-miya/src/main/java/com/forezp/ServiceMiyaApplication.java" />
+        <option value="$PROJECT_DIR$/chapter9/service-hi/src/main/java/com/forezp/ServiceHiApplication.java" />
+        <option value="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer1.yml" />
+        <option value="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer2.yml" />
+        <option value="$PROJECT_DIR$/sc-f-gateway-predicate/src/main/resources/application.yml" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,6 +386,12 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
@@ -39,17 +404,71 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringCloudLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-f-gateway-predicate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-f-gateway-predicate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-f-gateway-predicate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-f-gateway-predicate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-f-gateway-predicate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc-f-gateway-predicate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,6 +482,298 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="AdminClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-client (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.adminclient.AdminClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-client (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicehi.AdminClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin-server (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.adminserver.AdminServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sc-f-gateway-predicate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gateway.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-f-gateway-first-sight" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gateway.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="config-server (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ConfigServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsulMiyaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consul-miya" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ConsulMiyaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server (21)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server (22)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.forezp.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-service (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServerZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign (6)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicefeign.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-hi (18)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicehi.ServiceHiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-hi (13)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.forezp.servicehi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicehi.ServiceHiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-hi (5)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.forezp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceHiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-hi (14)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.forezp.servicehi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicehi.ServiceHiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-hi (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceHiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceLucyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-lucy (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicelucy.ServiceLucyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceLucyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-lucy (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceLucyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMiyaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service2-zipkin (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceMiyaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon (8)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.serviceribbon.ServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTurbineApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-turbine (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-turbine (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.serviceturbine.ServiceTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.servicezuul.ServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zipkin-server (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.forezp.ZipkinServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminClientApplication" />
+      <item itemvalue="Spring Boot.AdminClientApplication (1)" />
+      <item itemvalue="Spring Boot.AdminServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConsulMiyaApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.ServerZipkinApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceHiApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceLucyApplication" />
+      <item itemvalue="Spring Boot.ServiceLucyApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceMiyaApplication" />
+      <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item itemvalue="Spring Boot.ServiceRibbonApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceTurbineApplication" />
+      <item itemvalue="Spring Boot.ServiceTurbineApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication (1)" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication (4)" />
+      <item itemvalue="Spring Boot.ServiceHiApplication (2)" />
+      <item itemvalue="Spring Boot.EurekaServerApplication (4)" />
+      <item itemvalue="Spring Boot.ServiceHiApplication (5)" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="Spring Boot.ServiceHiApplication (5)" />
+        <item itemvalue="Spring Boot.EurekaServerApplication (4)" />
+        <item itemvalue="Spring Boot.ServiceHiApplication (2)" />
+        <item itemvalue="Spring Boot.ServiceHiApplication (4)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,54 +784,448 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569936268945</updated>
-      <workItem from="1569936272371" duration="1828000" />
+      <workItem from="1569936272371" duration="3347000" />
+      <workItem from="1569962474085" duration="30992000" />
+      <workItem from="1570026139393" duration="1035000" />
+      <workItem from="1570160456544" duration="6555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1828000" />
+    <option name="totallyTimeSpent" value="41929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JProfiler" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chapter6/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/config-client/src/main/java/com/forezp/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="76" lean-forward="true" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/config-server/src/main/java/com/forezp/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/config-client/src/main/java/com/forezp/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-start-line="10" selection-end-line="10" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter8/config-server/src/main/java/com/forezp/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/server-zipkin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/server-zipkin/src/test/java/com/forezp/ServerZipkinApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/server-zipkin/src/main/java/com/forezp/ServerZipkinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/service-miya/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/service-hi/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/service-hi/src/main/java/com/forezp/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter9/service-miya/src/main/java/com/forezp/ServiceMiyaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter10/eureka-server/src/main/java/com/forezp/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter10/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter10/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/eureka-server/src/main/resources/application-peer2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10/service-hi/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter10-5-jdbc/config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/eureka-server/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11/service-hi/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11-2/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter11-2/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/eureka-server/src/main/java/com/forezp/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/service-hi/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter12/service-hi/src/main/java/com/forezp/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter12/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter12/eureka-server/src/main/java/com/forezp/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter12/service-hi/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter12/service-hi/src/main/java/com/forezp/servicehi/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter13/service-turbine/src/main/java/com/forezp/serviceturbine/ServiceTurbineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter13/service-turbine/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter13/service-hi/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-chapter13/service-lucy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-gateway-limiter/src/main/java/gateway/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-gateway-limiter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-gateway-first-sight/src/main/java/gateway/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-gateway-predicate/src/main/java/gateway/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc-f-gateway-predicate/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
